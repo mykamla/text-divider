@@ -121,7 +121,7 @@ class TextDivider extends StatelessWidget {
       case Direction.horizontal:
         return Expanded(
           child: Container(
-            margin: const EdgeInsets.only(left: 15.0, right: 10.0),
+            margin: const EdgeInsets.only(left: 15.0, right: 15.0),
             child: Divider(
               height: size,
               thickness: thickness,
@@ -134,7 +134,7 @@ class TextDivider extends StatelessWidget {
       case Direction.vertical:
         return Expanded(
           child: Container(
-            margin: const EdgeInsets.only(top: 15.0, bottom: 10.0),
+            margin: const EdgeInsets.only(top: 15.0, bottom: 15.0),
             child: VerticalDivider(
               width: size,
               thickness: thickness,
